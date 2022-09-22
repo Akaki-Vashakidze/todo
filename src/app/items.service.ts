@@ -4,9 +4,8 @@ import { Item } from "./item.model"
 @Injectable({providedIn:'root'})
 export class ItemsService {
   items : Item[] = [
-    {description:'davrekot dgf',done:false},
-    {description:'gavarvizot', done:true},
-    {description:'vchamo', done:false}
+    {description:'დაწერე გასაკეთებელი საქმის სია',done:false},
+    {description:'შემდეგ შეასრულე ისინი',done:false}
   ]
 
   setItems(){
