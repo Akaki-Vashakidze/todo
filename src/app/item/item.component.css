@@ -1,0 +1,15 @@
+.item {
+    background: wheat;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    margin: 12px 0;
+    cursor: pointer;
+}
+
+
+.done {
+    text-decoration: line-through;
+  }

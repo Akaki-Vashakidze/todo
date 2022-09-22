@@ -1,0 +1,10 @@
+.item-input {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    flex-grow: 1;
+    margin-right: 12px;
+    font-size: 1.5rem;
+}
