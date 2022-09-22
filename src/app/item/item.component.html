@@ -1,4 +1,4 @@
-<div class="item">
-    <h1 [ngClass]="item.done ? 'done' : ''" (click)="finishTask()">{{item.description}}</h1>
+<div class="item" (click)="finishTask()">
+    <h1 [ngClass]="item.done ? 'done' : ''" >{{item.description}}</h1>
     <button (click)="onDeleteItem()">delete</button>
 </div>

@@ -1,6 +1,14 @@
 .item-input {
     display: flex;
     align-items: center;
+    width: 70%;
+}
+
+.container {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 input {

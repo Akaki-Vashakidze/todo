@@ -4,11 +4,11 @@
 button{
     padding: 8px;
     border: 2px solid black;
-    background: purple;
+    background: rgb(212, 159, 212);
     border-radius: 8px;
 }
 
 button:hover {
-    background: white;
+    background: rgb(161, 193, 228);
     overscroll-behavior-block: crimson;
 }

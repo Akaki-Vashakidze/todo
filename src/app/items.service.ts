@@ -33,7 +33,7 @@ export class ItemsService {
 
   finishedTask(index2:number) {
     this.items[index2].done = !this.items[index2].done ;
-    this.setItems()
+    this.setItems();
   }
 
 }
