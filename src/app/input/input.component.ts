@@ -14,6 +14,6 @@ export class InputComponent implements OnInit {
   }
 
   onNewItem(inputElement: HTMLInputElement) {
-   this.itemsService.addItems(inputElement.value)
+   this.itemsService.addItems(inputElement.value).subscribe()
   }
 }

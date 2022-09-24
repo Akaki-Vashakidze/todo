@@ -10,16 +10,17 @@ import { ItemsService } from "../items.service";
 
 export class ItemComponent {
   @Input() item:Item;
-  @Input() itemIndex:number;
 
   constructor(private itemsService:ItemsService) {}
 
   onDeleteItem(){
-    this.itemsService.deleteItem(this.itemIndex)
+    console.log(this.item.key)
+    this.itemsService.deleteItem(this.item.key).subscribe()
   }
 
-  finishTask(){
-   this.itemsService.finishedTask(this.itemIndex)
+  updateItem(){
+   console.log(this.item.key)
+   this.itemsService.updateTask({...this.item, done:!this.item.done}).subscribe()
   }
 }
 
